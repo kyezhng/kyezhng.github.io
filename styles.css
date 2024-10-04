@@ -3,3 +3,19 @@ body {
     background: bisque;
     text-align: center;
 }
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: pink;
+  cursor: pointer;
+}
