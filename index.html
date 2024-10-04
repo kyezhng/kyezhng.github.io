@@ -9,18 +9,18 @@
     <h1 style="padding-top: 30px;">Let's dress up our little cat</h1>
     <h2> This is our cat named Pussin' Paws</h2>
     <p></p>
-    <img src="https://miro.medium.com/v2/resize:fit:1080/0*A7MUqyCLvZDcHkfM.jpg" alt="Pussin' Paws" width="200" height="200">
+    <img id="catWears" src="https://miro.medium.com/v2/resize:fit:1080/0*A7MUqyCLvZDcHkfM.jpg" alt="Pussin' Paws" width="500" height="500">
     <h3 style="padding: 10px;"></h3>
 
     <!-- Links to change the image -->
     <div class="links">
-        <a onclick="changeImage('https://i.imgur.com/gzqhRkm.png)">Wear a cap</a>
+        <a href="#" onclick="changeImage('https://i.imgur.com/gzqhRkm.png')">Wear a cap</a>
     </div>
 
     <script>
         // JavaScript function to change the image
         function changeImage(newSrc) {
-          document.getElementById('mainImage').src = newSrc;
+          document.getElementById('catWears').src = newSrc;
         }
     </script>
 
