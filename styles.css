@@ -12,6 +12,10 @@ body {
     size: 100px;
 }
 
+.para {
+    font-family: "Zilla Slab", serif;
+}
+
 img {
   width: 300px;
   height: auto;
