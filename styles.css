@@ -15,7 +15,8 @@ img {
 
 .links a {
   margin-right: 15px;
+  size: 20px;
   text-decoration: none;
-  color: pink;
+  color: black;
   cursor: pointer;
 }
