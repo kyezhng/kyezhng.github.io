@@ -4,6 +4,13 @@ body {
     text-align: center;
 }
 
+title {
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 30px;
+}
+
 img {
   width: 300px;
   height: auto;
@@ -19,4 +26,5 @@ img {
   text-decoration: none;
   color: black;
   cursor: pointer;
+  font-family: "Zilla slab", serif;
 }
